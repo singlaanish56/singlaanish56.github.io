@@ -2,7 +2,10 @@
 /*eslint-env node*/
 
 module.exports = {
-  content: ['./*.html'],
+  content: [
+    './*.html',
+    './aboutme/aboutme.html'
+  ],
   theme: {
     screen:{
       sm:'375px'
